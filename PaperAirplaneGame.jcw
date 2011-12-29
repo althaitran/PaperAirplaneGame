@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>PaperAirplaneGame</label>
+	</settings>
+	<users>
+		<user>
+			<path>PaperAirplaneGame.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>PaperAirplaneGame.jcp</path>
+		</project>
+	</projects>
+</workspace>
