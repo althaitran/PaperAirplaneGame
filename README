@@ -1,0 +1,39 @@
+-----------------------
+---PaperAirplaneGame---
+-----------------------
+
+Introduction
+------------
+
+This game was based on the "PaperPlane" minigame in the GameBoy Advance
+game, "Wario Ware." Thus, the concept is similar, in that you control a
+paper airplane and must navigate its way down a path filled with walls.
+You must steer the paper airplane so it doesn't hit any walls, and
+the angle in which you steer your plane will determine its falling speed.
+Angling the plane as downard as possible nets greater fall speeds, while
+angling more horizontally will net greater horizontal speed and lower fall
+speeds. 
+
+Points are awarded based on how far down the path you've reached. The
+furthest distance is recorded as the high score. There is also a timer
+for how quickly you've managed to reach a certain distance, which acts
+as a tie-breaker for two game sessions that reach the same distance
+(the lesstime you take reaching a distance, the better). This encourages
+players to angle the plane downward for more speed, which, in turn, makes
+for a riskier trip.
+
+Compilation
+-----------
+
+This project was compiled using Eclipse (complying to JDK 1.5 standards).
+Thus, it is recommended to compile the code via Eclipse on your machine. This
+should create the appropriate class files under the "classes" folder. Running
+the code for "PaperAirplaneGame.class" on an html file should allow the game
+to be run on a browser.
+
+Controls
+--------
+
+Left (keyboard) - Steer the paper airplane towards the left.
+
+Right (keyboard) - Steer the paper airplane towards the right.
