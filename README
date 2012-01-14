@@ -31,6 +31,12 @@ should create the appropriate class files under the "classes" folder. Running
 the code for "PaperAirplaneGame.class" on an html file should allow the game
 to be run on a browser.
 
+When runnning or debugging the program from Eclipse, make sure to run as a
+Java Applet program. Also, set the program's width to 500 and height to 600,
+which can be done by going to Run>Run Configurations, going to the
+PaperAirplaneGame applet, then going to the Parameters tab and changing them
+there.
+
 Controls
 --------
 
