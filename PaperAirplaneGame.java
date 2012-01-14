@@ -153,38 +153,38 @@ public class PaperAirplaneGame extends Applet implements Runnable
 		yBkg2 = 600;
    		
    		//The following sets the images
-   		titleScreen = getImage (getCodeBase (), "PaperAirplane.GIF");
+   		titleScreen = getImage (getCodeBase (), "images/PaperAirplane.GIF");
 		
-		gameBkg1 = getImage (getCodeBase (), "bricks.GIF");
-		gameBkg2 = getImage (getCodeBase (), "bricks.GIF");
-		gameClouds1 = getImage (getCodeBase (), "clouds.GIF");
-		gameClouds2 = getImage (getCodeBase (), "clouds.GIF");
+		gameBkg1 = getImage (getCodeBase (), "images/bricks.GIF");
+		gameBkg2 = getImage (getCodeBase (), "images/bricks.GIF");
+		gameClouds1 = getImage (getCodeBase (), "images/clouds.GIF");
+		gameClouds2 = getImage (getCodeBase (), "images/clouds.GIF");
 		
 		planeAngle = new Image [11];	//This sets the planeAngle array to
 										//hold 11 elements
 		//The following below sets a GIF for each of the elements in the
 		//planeAngle array.
-		planeAngle [0] = getImage (getCodeBase (), "planeLeft5.GIF");
-		planeAngle [1] = getImage (getCodeBase (), "planeLeft4.GIF");
-		planeAngle [2] = getImage (getCodeBase (), "planeLeft3.GIF");
-		planeAngle [3] = getImage (getCodeBase (), "planeLeft2.GIF");
-		planeAngle [4] = getImage (getCodeBase (), "planeLeft1.GIF");
-		planeAngle [5] = getImage (getCodeBase (), "planeDown.GIF");
-		planeAngle [6] = getImage (getCodeBase (), "planeRight1.GIF");
-		planeAngle [7] = getImage (getCodeBase (), "planeRight2.GIF");
-		planeAngle [8] = getImage (getCodeBase (), "planeRight3.GIF");
-		planeAngle [9] = getImage (getCodeBase (), "planeRight4.GIF");
-		planeAngle [10] = getImage (getCodeBase (), "planeRight5.GIF");
+		planeAngle [0] = getImage (getCodeBase (), "images/planeLeft5.GIF");
+		planeAngle [1] = getImage (getCodeBase (), "images/planeLeft4.GIF");
+		planeAngle [2] = getImage (getCodeBase (), "images/planeLeft3.GIF");
+		planeAngle [3] = getImage (getCodeBase (), "images/planeLeft2.GIF");
+		planeAngle [4] = getImage (getCodeBase (), "images/planeLeft1.GIF");
+		planeAngle [5] = getImage (getCodeBase (), "images/planeDown.GIF");
+		planeAngle [6] = getImage (getCodeBase (), "images/planeRight1.GIF");
+		planeAngle [7] = getImage (getCodeBase (), "images/planeRight2.GIF");
+		planeAngle [8] = getImage (getCodeBase (), "images/planeRight3.GIF");
+		planeAngle [9] = getImage (getCodeBase (), "images/planeRight4.GIF");
+		planeAngle [10] = getImage (getCodeBase (), "images/planeRight5.GIF");
 		
-		leftWall = getImage (getCodeBase (), "leftWall.GIF");
-		rightWall = getImage (getCodeBase (), "rightWall.GIF");
+		leftWall = getImage (getCodeBase (), "images/leftWall.GIF");
+		rightWall = getImage (getCodeBase (), "images/rightWall.GIF");
 		
 		//The following sets the audio
-		levelSong = getAudioClip (getCodeBase (), "level.au");
-		hitWall = getAudioClip (getCodeBase (), "hitWall.au");
-		opening = getAudioClip (getCodeBase (), "exitbike.au");
-		stageIntro = getAudioClip (getCodeBase (), "stageIntro.au");
-		stageSong = getAudioClip (getCodeBase (), "stageSong.au");
+		levelSong = getAudioClip (getCodeBase (), "audio/level.au");
+		hitWall = getAudioClip (getCodeBase (), "audio/hitWall.au");
+		opening = getAudioClip (getCodeBase (), "audio/exitbike.au");
+		stageIntro = getAudioClip (getCodeBase (), "audio/stageIntro.au");
+		stageSong = getAudioClip (getCodeBase (), "audio/stageSong.au");
 		
 		//The following sets up the GamePlay Classes
 		w = new Wall [4];	//sets the Wall array w to have 4 elements

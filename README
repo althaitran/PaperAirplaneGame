@@ -22,14 +22,19 @@ as a tie-breaker for two game sessions that reach the same distance
 players to angle the plane downward for more speed, which, in turn, makes
 for a riskier trip.
 
-Compilation
------------
+Setting up for Compilation
+--------------------------
 
 This project was compiled using Eclipse (complying to JDK 1.5 standards).
 Thus, it is recommended to compile the code via Eclipse on your machine. This
 should create the appropriate class files under the "classes" folder. Running
 the code for "PaperAirplaneGame.class" on an html file should allow the game
-to be run on a browser.
+to be run on a browser, given that the html file and all the files and 
+subdirectories under the "classes" folder exist in the same directory. 
+
+To ensure the program compiles to the "classes" folder on Eclipse, go to
+Project>Properties, then select "Java Build Path" and under the "Source" tab,
+put the "Default output folder" as "PaperAirplaneGame/classes".
 
 When runnning or debugging the program from Eclipse, make sure to run as a
 Java Applet program. Also, set the program's width to 500 and height to 600,
